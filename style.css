@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+ body{
+    font-family: "Inter", sans-serif;
+}
 
 
 
@@ -30,7 +33,7 @@
 }
 
 .logo img{
-    width: 160px;      /* Logo বড় */
+    width: 160px;      
     height: auto;
     display: block;
 }
@@ -72,3 +75,83 @@
     background: #1d4ed8;
     transform: translateY(-2px);
 }
+
+   /* header section  code start  */
+       
+
+.hero{
+    width: 100%;
+    height: 90vh;
+    background: url("./all-images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Black Overlay */
+
+.overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.27);
+}
+
+/* Content */
+
+.hero-content{
+    width: 850px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+/* Heading */
+
+.hero-content h1{
+    font-size: 76px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.hero-content h1 span{
+    font-style: italic;
+}
+
+/* Paragraph */
+
+.hero-content p{
+    font-size: 23px;
+    line-height: 1.6;
+    color: rgba(255,255,255,.9);
+    margin-bottom: 50px;
+}
+
+/* Button */
+
+.hero-btn{
+    display: inline-block;
+    padding: 18px 55px;
+    background: #2563eb;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: .3s ease;
+    margin-top: 230px;
+}
+
+.hero-btn:hover{
+    background: #1d4ed8;
+    transform: translateY(-4px);
+    box-shadow: 0 12px 25px rgba(37,99,235,.4);
+}
+
+   /* header section  code end  */
