@@ -1,0 +1,204 @@
+ Event Schedule Section
+=========================== -->
+
+<section class="event-schedule">
+
+    <div class="schedule-title">
+        <h2>Event Schedule</h2>
+        
+        <p>Three days of inspiring talks, workshops, and networking</p>
+    </div>
+
+    <!-- Day Menu -->
+
+    <div class="schedule-days">
+
+        <div class="day active">
+            <h3>Day 1</h3>
+            <span>Nov 15</span>
+        </div>
+
+        <div class="day">
+            <h3>Day 2</h3>
+            <span>Nov 16</span>
+        </div>
+
+        <div class="day">
+            <h3>Day 3</h3>
+            <span>Nov 17</span>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <!-- Schedule Cards -->
+
+    <div class="schedule-container">
+
+        <!-- Card 1 -->
+
+        <div class="schedule-card">
+
+            <h4>9:00 AM - 10:00 AM</h4>
+
+            <h2>Registration & Welcome Coffee</h2>
+
+            <p>Check-in and networking with fellow attendees.</p>
+
+        </div>
+
+
+        <!-- Card 2 -->
+
+        <div class="schedule-card">
+
+            <h4>10:00 AM - 11:00 AM</h4>
+
+            <h2>Opening Keynote: The Future of Technology</h2>
+
+            <p>Dr. Michael Chen, Google AI</p>
+
+        </div>
+
+
+        <!-- Card 3 -->
+
+        <div class="schedule-card">
+
+            <h4>11:30 AM - 1:00 PM</h4>
+
+            <h2>AI & Machine Learning Breakthroughs</h2>
+
+            <p>Panel discussion with industry experts.</p>
+
+        </div>
+
+
+        <!-- Card 4 -->
+
+        <div class="schedule-card">
+
+            <h4>2:00 PM - 4:00 PM</h4>
+
+            <h2>Hands-on Workshop: Building AI Models</h2>
+
+            <p>Interactive session with practical exercises.</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+ .event-schedule {
+    width: 1200px;
+    margin: 100px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Heading */
+
+.schedule-title {
+    text-align: center;
+}
+
+.schedule-title h2 {
+    font-size: 40px;
+    color: #1f2937;
+    margin-bottom: 10px;
+    text-decoration: underline #2563eb;
+    text-underline-offset: 10px;
+}
+
+
+
+
+.schedule-title p {
+    color: #6b7280;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+/* Day Menu */
+
+.schedule-days {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 20px;
+}
+
+.day {
+    text-align: center;
+    cursor: default;
+    padding-bottom: 15px;
+}
+
+.day h3 {
+    font-size: 22px;
+    color: #374151;
+    margin-bottom: 5px;
+}
+
+.day span {
+    color: #6b7280;
+    font-size: 15px;
+}
+
+.day.active {
+    border-bottom: 3px solid #2563eb;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e5e7eb;
+    margin-bottom: 40px;
+}
+
+/* Schedule Cards */
+
+.schedule-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.schedule-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    border: 3px solid #2563eb;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .09);
+    transition: .3s;
+}
+
+.schedule-card:hover {
+    transform: translateY(-8px);
+    border-color: #1d4ed8;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .15);
+    background: rgb(200, 206, 244);
+    
+}
+
+.schedule-card h4 {
+    color: #2563eb;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.schedule-card h2 {
+    color: #111827;
+    font-size: 24px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.schedule-card p {
+    color: #6b7280;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* new section code end  */
