@@ -74,7 +74,7 @@
 
   .hero {
       width: 100%;
-      height: 97vh;
+      height: 100vh;
       background: url("./all-images/banner.jpg");
       background-size: cover;
       background-position: center;
